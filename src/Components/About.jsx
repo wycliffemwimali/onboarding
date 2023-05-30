@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/abou.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,19 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a Committed and Motivated Tech optimist, and a goal-oriented computer science student. Possess excellent knowledge of JAVA, and SPRINGBOOT but I’m always adding new skills to my repertoire. Ability to learn things quickly and capable of working in a fast-paced and team-driven environment.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Java",
+  "SpringBoot",
+  "Software Engineering",
+  "RESR APIs",
+  "Android Development",
+  "Linux",
 ];
 
 /**
@@ -45,11 +45,11 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I’ve always been a great problem solver, an independent introvert, and a technophile obsessed with the latest technologies. Today, I’m working from home as a software engineer and I get to show off all these elements of who I am.";
 
 const About = () => {
   return (
-    <section className="padding" id="about">
+    <section className="light" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
